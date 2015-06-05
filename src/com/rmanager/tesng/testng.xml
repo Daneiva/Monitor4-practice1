@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite RMApp">
+   <test name="Verify created location">
+    <classes>
+      <class name="com.rmanager.tesng.AddLocation" />
+    </classes>
+  </test>
+  
+  <test name="Verify Add Resources">
+    <classes>
+      <class name="com.rmanager.tesng.AddResoursesSearch" />
+    </classes>    
+  </test>
+  
+    <test name="Verify Deleted Resources">
+    <classes>
+      <class name="com.rmanager.tesng.DeleteResources" />
+    </classes>    
+  </test>
+  
+  <test name="Verify Search Specify Room">
+    <classes>
+      <class name="com.rmanager.tesng.SearchSpecifyRoom" />
+    </classes>    
+  </test>
+  
+  <test name="Verify updated capacity of room">
+    <classes>
+      <class name="com.rmanager.tesng.UpdatedCapRoom" />
+    </classes>    
+  </test>
+  
+</suite>    
